@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - PortfolioSite</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/PortfolioSite.styles.css" asp-append-version="true" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header">
+                    <div class="logo encodesans">
+                        <h1><span>C</span># DEVELOPER</h1>
+                    </div>
+                    <div>
+                        <ul class="mainmenu">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><a href="/Home/About">About</a></li>
+                            <li><a href="/Home/Skills">Skills</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>           
+                </div>
+            </header>
+            <div class="outcontainer">            
+                <div class="maincontent">
+                    <main>
+                        <div >
+                            @RenderBody()
+                        </div>
+                    </main>
+                </div> 
+                <div class="sidebar">
+                    <div>
+                        <svg width="80" height="70" viewBox="0 0 80 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="79" height="69" stroke="white"/>
+                            <path d="M42.3772 42.1569C46.2749 42.1569 48.2242 42.1569 49.4346 41.0078C50.646 39.8598 50.646 38.0108 50.646 34.3137C50.646 30.6167 50.646 28.7676 49.4346 27.6196C48.2242 26.4706 46.2749 26.4706 42.3772 26.4706H38.2429C34.3452 26.4706 32.3958 26.4706 31.1855 27.6196C29.9741 28.7676 29.9741 30.6167 29.9741 34.3137C29.9741 38.0108 29.9741 39.8598 31.1855 41.0078C31.8604 41.649 32.7648 41.9323 34.1085 42.0569" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M40.31 34.3137V34.3235M36.1756 34.3137V34.3235M44.4444 34.3137V34.3235M42.3772 42.1569C41.0997 42.1569 39.6919 42.6471 38.4072 43.2794C36.342 44.2961 35.3095 44.8049 34.801 44.4804C34.2924 44.1569 34.3885 43.152 34.5818 41.1431L34.6252 40.6863" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>          
+        </div>  
+    </body>
+</html>

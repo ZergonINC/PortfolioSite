@@ -1,0 +1,77 @@
+﻿.header {
+    display: flex;
+}
+
+.logo {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    flex-grow: 1;
+    padding: 50px 0px 0px 100px;
+}
+
+    .logo h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+        .logo h1 span {
+            color: #E0FF65;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+.mainmenu {
+    float: right;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 64px 50px 0px 0px;
+}
+
+    .mainmenu li {
+        float: left;
+        list-style: none;
+        margin: 0px 80px 0px 0px
+    }
+
+
+ul.mainmenu a {
+    font-family: poppins-regular;
+    float: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    width: 5em;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+    ul.mainmenu a:hover {
+        color: #E0FF65;
+    }
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: 60;
+    width: 90px;
+    height: auto;
+    padding: 0.5px;
+}
+
+.maincontent {
+    min-width: 1215px;
+    width: 100%;
+    color: #fff;
+}
+

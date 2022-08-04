@@ -1,0 +1,67 @@
+﻿h2 {
+    float: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.2em;
+    color: #E0FF65;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 165px;
+}
+
+.about {
+    float: left;
+    width: 727px;
+    height: 215px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.aboutsceenanimation {
+    /* IconAnimation */
+
+
+    width: 300px;
+    height: 301px;
+    left: 1292px;
+    top: 268px;
+    /* Ellipse 1 */
+
+
+    left: 0%;
+    right: 0%;
+    top: 0.33%;
+    bottom: 0%;
+    background: #151515;
+    /* Rectangle 1 */
+
+
+    left: 8.33%;
+    right: 8.67%;
+    top: 40.2%;
+    bottom: 40.2%;
+    background: #D9D9D9;
+    /* Ellipse 2 */
+
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.33%;
+    background: #050505;
+}
+
+.inerconteiner {
+    width: 100%;
+    float: right;
+    padding: 80px 250px 0px 0px;
+    margin: 0;
+}
